@@ -1,0 +1,395 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container .zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .zhezhao .fenda {
+  position: relative;
+  top: 25%;
+  left: 15%;
+}
+.container .zhezhao .fenda img {
+  width: 4.65rem;
+  height: 6.05rem;
+  background: none;
+}
+.container .zhezhao .fenda .cuo {
+  position: relative;
+  top: -6rem;
+  right: -4rem;
+  z-index: 100;
+}
+.container .zhezhao .fenda .cuo input {
+  width: 0.55rem;
+  height: auto;
+  background: none;
+}
+.container .zhezhao .feiniu {
+  width: 4.64rem;
+  height: 0.85rem;
+  background: none;
+  position: relative;
+  top: -1.5rem;
+  left: 0.2rem;
+}
+.container .zhezhao .feiniu .xiao {
+  width: 4.15rem;
+  height: 0.82rem;
+  background: none;
+}
+.container .zhezhao .feiniu .xiao p {
+  line-height: 0.42rem;
+  font-size: 0.22rem;
+}
+.container header {
+  width: 100%;
+  height: 0.82rem;
+  background: #4194f0;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-align-items: center;
+}
+.container header a {
+  padding-left: 0.29rem;
+  padding-right: 0.27rem;
+}
+.container header a img {
+  width: 0.38rem;
+  height: auto;
+  background: none;
+}
+.container header p {
+  -webkit-flex: 1;
+  text-align: center;
+  font-size: 0.27rem;
+  margin-left: -0.7rem;
+  color: #fff;
+}
+.container section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  position: relative;
+}
+.container section .nav {
+  width: 100%;
+  height: 1.27rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .nav .left {
+  width: 1.06rem;
+  height: auto;
+  background: none;
+  background: url(../img/默认店铺头像1.png) no-repeat;
+  background-size: 1.06rem auto;
+  margin-left: 0.3rem;
+  margin-right: 0.2rem;
+}
+.container section .nav .left img {
+  width: 1.06rem;
+  height: auto;
+  background: none;
+}
+.container section .nav .right {
+  -webkit-box-flex: 1;
+}
+.container section .nav .right ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .nav .right ul li {
+  -webkit-box-flex: 1;
+}
+.container section .nav .right ul li img {
+  width: auto;
+  height: 0.3rem;
+  background: none;
+  margin-top: 0.15rem;
+}
+.container section .nav .right ul li h3 {
+  font-weight: normal;
+  font-size: 0.22rem;
+  margin-top: 0.24rem;
+  color: #fff;
+}
+.container section .nav .right ul span {
+  margin-right: 0.21rem;
+}
+.container section .nav .right ul span img {
+  width: 0.35rem;
+  height: auto;
+  background: none;
+}
+.container section .main nav {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  text-align: center;
+  height: 0.63rem;
+  border-bottom: 1px solid #cccccc;
+}
+.container section .main nav .dianpup {
+  -webkit-box-flex: 1;
+  display: block;
+  color: #333333;
+}
+.container section .main nav .dianpup:hover,
+.container section .main nav .dianpup.active {
+  color: #4194f0;
+  border-bottom: 3px solid #4194f0;
+  padding: 0.135rem 0;
+}
+.container section .minmin {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.container section .minmin .navv {
+  width: 1.48rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container section .minmin .navv .lei {
+  display: block;
+  width: 1.4rem;
+  font-size: 0.2rem;
+  padding: 0.38rem 0.17rem;
+  color: #666666;
+  background: #f5f5f5;
+  border-bottom: 1px solid #eaeaea;
+  font-weight: bold;
+}
+.container section .minmin .navv .lei:hover,
+.container section .minmin .navv .lei.active1 {
+  color: #9ac1f6;
+  background: #fff;
+}
+.container section .minmin .you {
+  background: pink;
+  -webkit-box-flex: 1;
+}
+.container section .minmin .you .nav1 {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  border-left: 9px solid #d8d8d8;
+  width: auto;
+  height: 0.64rem;
+  background: #f5f5f5;
+}
+.container section .minmin .you .nav1 a {
+  display: block;
+  margin-top: 0.11rem;
+  margin-left: 0.25rem;
+  width: 0.8rem;
+  height: 0.44rem;
+  background: #ffffff;
+  font-size: 0.22rem;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #999999;
+  line-height: 0.44rem;
+}
+.container section .minmin .you .qu {
+  width: auto;
+  height: 1.3rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding-bottom: 0.17rem;
+}
+.container section .minmin .you .qu .mian {
+  position: absolute;
+  top: 0.28rem;
+  left: 0.28rem;
+}
+.container section .minmin .you .qu .mian img {
+  width: 0.88rem;
+  height: auto;
+  background: none;
+}
+.container section .minmin .you .qu .ding {
+  position: absolute;
+}
+.container section .minmin .you .qu .ding img {
+  width: 0.58rem;
+  height: auto;
+  background: none;
+}
+.container section .minmin .you .qu .jian {
+  position: absolute;
+  top: 0.74rem;
+  right: 1.12rem;
+}
+.container section .minmin .you .qu .jian img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
+.container section .minmin .you .qu .three {
+  position: absolute;
+  top: 0.78rem;
+  right: 0.8rem;
+}
+.container section .minmin .you .qu .three span {
+  font-size: 0.2rem;
+}
+.container section .minmin .you .qu .jia {
+  position: absolute;
+  top: 0.74rem;
+  right: 0.2rem;
+}
+.container section .minmin .you .qu .jia img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
+.container section .minmin .you .qu .tu {
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+}
+.container section .minmin .you .qu .tu img {
+  width: 1.05rem;
+  height: auto;
+  background: none;
+}
+.container section .minmin .you .qu .zi {
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  -webkit-box-flex: 1;
+}
+.container section .minmin .you .qu .zi p {
+  font-size: 0.26rem;
+}
+.container section .minmin .you .qu .zi p span {
+  font-size: 0.21rem;
+  color: #c1c1c1;
+}
+.container section .minmin .you .qu .zi span {
+  font-size: 0.21rem;
+  color: #ff6871;
+}
+.container section .minmin .you .qu .zi span b {
+  font-size: 0.19rem;
+  text-decoration: line-through;
+  color: #c8c8c8;
+}
+.container section .minmin .you .hui {
+  width: 100%;
+  height: 0.28rem;
+  background: #ffffff;
+}
+.container section .minmin .you .hui .over {
+  width: 2.5rem;
+  height: 0.26rem;
+  background: none;
+  margin-left: .2rem;
+  border: 1px solid #ff8c33;
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+}
+.container section .minmin .you .hui .over .zuo111 {
+  width: 1.5rem;
+  height: 0.26rem;
+  background: none;
+  float: left;
+  font-size: 0.19rem;
+  color: #ff8c33;
+}
+.container section .minmin .you .hui .over .you111 {
+  width: 0.89rem;
+  height: 0.26rem;
+  background: #ff8c33;
+  float: left;
+  color: #fff;
+  font-size: 0.19rem;
+  padding-left: 0.11rem;
+}
+.container section .minmin .main66 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  margin: 0 auto;
+}
+.container section .minmin .main66 img {
+  width: 2.56rem;
+  height: auto;
+  background: none;
+}
+.container section .minmin .main66 p {
+  font-size: 0.26rem;
+}
+.container .footer {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.89rem;
+  background: rgba(43, 43, 43, 0.9);
+}
+.container .footer .four {
+  position: relative;
+  left: 1.2rem;
+  bottom: 0.7rem;
+  z-index: 10;
+}
+.container .footer .shou {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  position: relative;
+}
+.container .footer .shou .goutu {
+  position: absolute;
+  top: -0.65rem;
+  left: 0.18rem;
+}
+.container .footer .shou .goutu img {
+  height: 1.05rem;
+}
+.container .footer .shou .gougou {
+  padding-left: 1.44rem;
+  color: #fff;
+  font-size: 0.26rem;
+}
+.container .footer .suan {
+  width: 2.28rem;
+  height: 0.89rem;
+  background: #535558;
+  text-align: center;
+  line-height: 0.89rem;
+  font-size: 0.3rem;
+  color: #fff;
+}
+.container .footer .suan.sua {
+  width: 2.28rem;
+  height: 0.89rem;
+  background: #ff8c50;
+  text-align: center;
+  line-height: 0.89rem;
+  font-size: 0.3rem;
+  color: #fff;
+}

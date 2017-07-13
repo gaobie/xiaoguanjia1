@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script type="text/javascript">
+    	
+   	   (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                  var clientWidth = docEl.clientWidth;
+                  if (!clientWidth) return;
+                  docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+   	
+    </script>
+    <link rel="stylesheet" href="css/dingwei.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="index.html"><img src="img/nav_btn_back.png"></a>
+			<p>请选择所在的学校</p>
+		</header>
+		<section>
+			<div class="search">
+				<input type="text" placeholder="搜索学校" value="鄂尔多斯大学">
+			</div>
+			<div class="footer">
+				<div class="s">
+					<div class="ee eee">
+						<p>鄂尔多斯大学</p>
+					</div>
+					<div class="ee">
+						<p>恩施大学</p>
+					</div>
+					<div class="ee">
+						<p>鄂州大学</p>
+					</div>
+					<div class="ee">
+						<p>抚顺大学</p>
+					</div>
+					<div class="ee">
+						<p>阜阳大学</p>
+					</div>
+					<div class="ee">
+						<p>鞍山大学</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+	
+</body>
+
+</html>

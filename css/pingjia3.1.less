@@ -1,0 +1,180 @@
+@import url(m_style.css);
+.full(@w,@h,@bg)
+{
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+//封装弹性盒
+.box(@dir:horizontal){
+    display: -webkit-box;//吧父元素设置为檀香和布局；
+    -webkit-box-orient: @dir;//为父元素设置子元素的排列方式；
+}
+
+html,body,.container{
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.container{
+    .box(vertical);
+     header{
+        .full(100%,0.82rem,#4194f0);
+         display: -webkit-flex;
+        -webkit-flex-direction: row;
+        -webkit-align-items:center;
+        a{
+            padding-left: 0.29rem;
+            padding-right: 0.27rem;
+            img{
+                .full(0.38rem,auto,none);
+            }
+        }
+        p{
+            -webkit-flex: 1;
+            text-align: center;
+            font-size: 0.27rem;
+            margin-left: -0.7rem;
+            color: #fff;
+                
+            
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        position: relative;
+        .nav{
+            .full(100%,1.27rem,#4194f0);
+            .box;
+            .left{
+                .full(1.06rem,auto,none);
+                background: url(../img/默认店铺头像1.png) no-repeat;
+                background-size:1.06rem auto;
+                margin-left: 0.3rem;
+                margin-right: 0.2rem;
+                img{
+                    .full(1.06rem,auto,none);
+                }
+                }
+            .right{
+                -webkit-box-flex: 1;
+                
+                ul{
+                    .box;
+                    li{
+                        -webkit-box-flex: 1;
+                        img{
+                            .full(auto,0.3rem,none);
+                            margin-top: 0.15rem;
+                        }
+                        h3{
+                            font-weight: normal;
+                            font-size:0.22rem;
+                            margin-top: 0.24rem;
+                            color:#fff;
+                        }
+                        
+                    }
+                    span{
+                            margin-right: 0.21rem;
+                            img{
+                                .full(0.35rem,auto,none);
+                            }
+                        }
+                    }
+                }
+            }
+            .main{
+                nav{
+                   .box;
+                   -webkit-box-align: center;
+                   text-align: center;
+                   height: 0.63rem;
+                   border-bottom: 1px solid #cccccc;
+                    .dianpup{
+                        -webkit-box-flex: 1;
+                        display: block;
+                        color: #333333;
+                        &:hover,&.active{
+                            color: #4194f0;
+                            border-bottom: 3px solid #4194f0;
+                            padding: 0.135rem 0;
+                        }
+                    }
+                }
+            }
+            .zongti{
+               .full(100%,1.3rem,none);
+               .box;
+               .zuo{
+                   width: 2.4rem;
+                   text-align: center;
+                   p{
+                       font-size:0.28rem;
+                       color:#ffb82e;
+                       span{
+                           font-size:0.2rem;
+                           color:#666666;
+                       }
+                   }
+                   span{
+                       i{
+                           font-size:0.18rem;
+                           color:#999999;
+                           font-style: normal;
+                       }
+                   }
+               }
+               .you{
+                   -webkit-box-flex: 1;
+                       *{
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .list{
+                            width: 80px;
+                            height: 16px;
+                            background: url(../img/star-matrix.gif);
+                            ul{
+                                li{
+                                    width: 16px;
+                                    height: 16px;
+                                    float: left;
+                                    list-style: none;
+                                    padding-left: 0;
+                                    cursor: pointer;
+                                    text-indent: -99999px;
+                                    a{
+                                        text-decoration: none;
+                                        background: #333;
+                                    }
+                                }
+                            }
+                            
+                            
+                        }
+                        .onestar{
+                            background-position: 0 -96px;
+                        }
+                        .twostar{
+                            background-position: 0 -112px;
+                        }
+                        .threestar{
+                            background-position: 0 -128px;
+                        }
+                        .fourstar{
+                            background-position: 0 -144px;
+                        }
+                        .fivestar{
+                            background-position: 0 -160px;
+                        }
+                        
+                }
+            }
+        }
+    }        
+       
+  
+          

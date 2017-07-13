@@ -1,0 +1,478 @@
+@import url(m_style.css);
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container header {
+  width: 100%;
+  height: 0.88rem;
+  background: #4194f0;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-align-items: center;
+}
+.container header a {
+  padding-left: 0.29rem;
+  padding-right: 0.27rem;
+}
+.container header a img {
+  width: 0.38rem;
+  height: auto;
+  background: none;
+}
+.container header p {
+  -webkit-flex: 1;
+  text-align: center;
+  font-size: 0.27rem;
+  margin-left: -0.7rem;
+  color: #fff;
+}
+.container section {
+  -webkit-box-flex: 1;
+  background: #f5f5f9;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.container section .ding {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 1rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 1rem;
+}
+.container section .ding .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .ding .left img {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: none;
+  padding-right: 0.2rem;
+}
+.container section .ding span {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  text-align: right;
+  color: #4194f0;
+  margin-right: 0.3rem;
+}
+.container section .ding span i {
+  font-size: 0.22rem;
+  font-style: normal;
+}
+.container section .xuanze {
+  width: 100%;
+  height: 0.75rem;
+  background: none;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+}
+.container section .xuanze p {
+  height: 0.75rem;
+  line-height: 0.75rem;
+  font-size: 0.22rem;
+}
+.container section .fangshi {
+  width: 100%;
+  height: 2.7rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 0.9rem;
+  -webkit-box-flex: 1;
+}
+.container section .fangshi .qian {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 1rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 1rem;
+}
+.container section .fangshi .qian .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .fangshi .qian .left input[type='radio'] {
+  display: none;
+}
+.container section .fangshi .qian .left input[type='radio'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .fangshi .qian .left input[type='radio']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .fangshi .qian .left .qianbao {
+  width: 0.38rem;
+  height: 0.32rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 -0.38rem;
+  background-size: 0.39rem auto ;
+}
+.container section .fangshi .qian .left span {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  text-align: right;
+  color: #4194f0;
+  margin-right: 0.3rem;
+}
+.container section .fangshi .qian .yu {
+  -webkit-box-flex: 1;
+  font-size: 0.25rem;
+  text-align: right;
+  color: #ff0050;
+  margin-right: 0.3rem;
+}
+.container section .fangshi .wei {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .fangshi .wei .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .fangshi .wei .left input[type='radio'] {
+  display: none;
+}
+.container section .fangshi .wei .left input[type='radio'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .fangshi .wei .left input[type='radio']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .fangshi .wei .left .weixin {
+  width: 0.39rem;
+  height: 0.33rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 -0.71rem;
+  background-size: 0.39rem auto ;
+}
+.container section .fangshi .wei .left span {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  text-align: right;
+  color: #4194f0;
+  margin-right: 0.3rem;
+}
+.container section .fangshi .zhi {
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .fangshi .zhi .left {
+  -webkit-box-flex: 1;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  padding-left: 0.3rem;
+  font-size: 0.25rem;
+  box-sizing: border-box;
+}
+.container section .fangshi .zhi .left input[type='radio'] {
+  display: none;
+}
+.container section .fangshi .zhi .left input[type='radio'] + label {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url(../img/img.png) no-repeat 0 0;
+  background-size: auto 0.38rem ;
+  display: block;
+}
+.container section .fangshi .zhi .left input[type='radio']:checked + label {
+  background: url(../img/img.png) no-repeat -0.38rem 0;
+  background-size: auto 0.38rem  ;
+}
+.container section .fangshi .zhi .left .zhifubao {
+  width: 0.38rem;
+  height: 0.38rem;
+  background: none;
+  margin-right: 0.2rem;
+  margin-left: 0.26rem;
+  background: url(../img/zhifu.png) no-repeat 0 0;
+  background-size: 0.38rem auto ;
+}
+.container section .fangshi .zhi .left span {
+  -webkit-box-flex: 1;
+  font-size: 0.28rem;
+  text-align: right;
+  color: #4194f0;
+  margin-right: 0.3rem;
+}
+.container section .queren {
+  width: 90.625%;
+  height: 0.84rem;
+  background: #4194f0;
+  margin: 0.14rem auto;
+  border-radius: 0.07rem;
+  margin-top: 4.45rem;
+}
+.container section .queren button {
+  width: 100%;
+  height: 0.84rem;
+  background: #4194f0;
+  text-align: center;
+  line-height: 0.84rem;
+  font-size: 0.3rem;
+  color: #fff;
+  border: 0;
+}
+.container section .search {
+  width: null;
+  height: 0.6rem;
+  background: none;
+  width: 90.625%;
+  margin: 0.14rem auto;
+  border-radius: 0.05rem;
+}
+.container section .search.xuexiao input {
+  width: 82.75862069%;
+  height: 0.6rem;
+  background: #ffffff;
+  border: 0;
+  background: #ffffff url(../img/search-icon.png) no-repeat 0.1rem center;
+  background-size: 0.26rem;
+  padding-left: 0.46rem;
+  box-sizing: border-box;
+  font-size: 0.2rem;
+}
+.container section .search.xuexiao button {
+  width: 0.8rem;
+  height: 0.56rem;
+  background: #eaeaea;
+  border: 0;
+  margin-left: 0.10rem;
+  border: 2px solid #d9d9d9;
+}
+.container section .search input {
+  width: 100%;
+  height: 0.6rem;
+  background: #ffffff;
+  border: 0;
+  background: #ffffff url(../img/search-icon.png) no-repeat 0.1rem center;
+  background-size: 0.26rem;
+  padding-left: 0.46rem;
+  box-sizing: border-box;
+  font-size: 0.2rem;
+}
+.container section .di {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+}
+.container section .di .lang {
+  width: 100%;
+  height: 2.96rem;
+  background: none;
+}
+.container section .di .lang img {
+  width: 100%;
+  height: 2.96rem;
+  background: none;
+}
+.container section .di .baoqian {
+  width: 5.3rem;
+  height: 2.9rem;
+  background: none;
+  -webkit-box-flex: 1;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.container section .di .baoqian img {
+  width: 1.38rem;
+  height: 1.35rem;
+  background: none;
+}
+.container section .di .baoqian p {
+  width: 4rem;
+  height: 0.35rem;
+  background: none;
+  margin-left: -1.2rem;
+  margin-top: 0.33rem;
+  font-size: 0.28rem;
+  color: #999999;
+}
+.container section .this {
+  width: 100%;
+  height: 1.2rem;
+  background: #ffffff;
+}
+.container section .this p {
+  display: block;
+  width: auto;
+  height: 0.4rem;
+  background: none;
+  padding: 0.24rem 0.18rem 0.1rem;
+  font-size: 0.24rem;
+  color: #999999;
+}
+.container section .this p img {
+  margin-right: 0.1rem;
+  width: 0.2rem;
+  height: 0.24rem;
+  background: none;
+}
+.container section .this a {
+  padding-left: 0.6rem;
+  color: #4194f0;
+  font-size: 0.26rem;
+}
+.container section .footer .select-city {
+  background: #fff;
+  position: relative;
+}
+.container section .footer .select-city .letter-blue {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #4194f0;
+  text-align: center;
+  line-height: 0.8rem;
+  border-radius: 5px;
+  font-size: 0.25rem;
+  position: absolute;
+  left: 2.8rem;
+  top: 3.1rem;
+  margin-top: -1.2rem;
+}
+.container section .footer .select-city .letter-box {
+  position: fixed;
+  right: 0;
+  top: 3.3rem;
+  background: #fff;
+}
+.container section .footer .select-city .letter-box h3 {
+  font-size: 0.2rem;
+  line-height: 0.3rem;
+  width: 0.35rem;
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.container section .footer .E {
+  width: 91.71875%;
+  height: 0.33rem;
+  background: none;
+  margin: 0.12rem auto;
+  font-size: 0.24rem;
+}
+.container section .footer .s {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.container section .footer .s .ee {
+  width: 100%;
+  height: 0.96rem;
+  background: none;
+  border-bottom: 0.01rem solid #e6e9eb;
+}
+.container section .footer .s .ee.eee p {
+  font-size: 0.28rem;
+  padding-top: 0.35rem ;
+  padding-left: 0.3rem ;
+  color: #4194F0;
+  box-sizing: border-box;
+}
+.container section .footer .s .ee p {
+  font-size: 0.28rem;
+  padding-top: 0.35rem ;
+  padding-left: 0.3rem ;
+  box-sizing: border-box;
+}
+.container section .footer .e {
+  width: 100%;
+  height: 3.95rem;
+  background: #ffffff;
+}
+.container section .footer .e .ee {
+  width: 100%;
+  height: 0.98rem;
+  background: none;
+  border-bottom: 0.01rem solid #e6e9eb;
+}
+.container section .footer .e .ee.eee p {
+  font-size: 0.28rem;
+  padding-top: 0.22rem ;
+  padding-left: 0.3rem ;
+  color: #4194F0;
+  box-sizing: border-box;
+}
+.container section .footer .e .ee p {
+  font-size: 0.28rem;
+  padding-top: 0.22rem ;
+  padding-left: 0.3rem ;
+  box-sizing: border-box;
+}
+.container section .footer .F {
+  width: 91.71875%;
+  height: 0.33rem;
+  background: none;
+  margin: 0.12rem auto;
+  font-size: 0.24rem;
+}
+.container section .footer .f {
+  width: 100%;
+  height: 3.95rem;
+  background: #ffffff;
+}
+.container section .footer .f .ff {
+  width: 100%;
+  height: 0.98rem;
+  background: none;
+  border-bottom: 0.01rem solid #e6e9eb;
+}
+.container section .footer .f .ff p {
+  font-size: 0.28rem;
+  padding-top: 0.22rem ;
+  padding-left: 0.3rem ;
+  box-sizing: border-box;
+}
